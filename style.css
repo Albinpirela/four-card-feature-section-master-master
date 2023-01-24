@@ -2,3 +2,64 @@ html body {
   margin: 0;
   padding: 0;
 }
+
+.hero {
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.card {
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: end;
+  box-sizing: border-box;
+
+
+}
+
+.a {
+  border-top: 3px solid #44d3d2;
+  grid-row: span 2;
+  align-self: center;
+}
+
+.b {
+  border-top: 3px solid #ea5454;
+}
+
+.c {
+  border-top: 3px solid #fcae4a;
+}
+
+.d {
+  border-top: 3px solid #549ef2;
+  grid-row: span 2;
+  align-self: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  align-self: flex-end;
+}
+
+span {
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.hero>p {
+  font-size: 0.8em;
+}
